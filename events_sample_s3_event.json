@@ -1,0 +1,21 @@
+{
+  "Records": [
+    {
+      "eventVersion": "2.1",
+      "eventSource": "aws:s3",
+      "awsRegion": "us-east-1",
+      "eventTime": "2026-05-18T00:00:00.000Z",
+      "eventName": "ObjectCreated:Put",
+      "s3": {
+        "bucket": {
+          "name": "mukul-sharma-etl-project",
+          "arn": "arn:aws:s3:::mukul-sharma-etl-project"
+        },
+        "object": {
+          "key": "orders_json_incoming/sample_order.json",
+          "size": 1024
+        }
+      }
+    }
+  ]
+}
