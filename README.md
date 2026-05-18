@@ -55,3 +55,15 @@ graph LR
     classDef db fill:#87CEEB,stroke:#333,stroke-width:2px;
     classDef crawler fill:#66CCCC,stroke:#333,stroke-width:2px;
     classDef viz fill:#FFCC00,stroke:#333,stroke-width:2px,color:black;
+```
+
+## Tech Stack & Core Libraries
+- Python
+- Pandas
+- AWS Lambda (Serverless Compute)
+- Boto3 (AWS SDK for Python)
+- AWS S3 (Simple Storage Service)
+- AWS Glue (Crawler & Data Catalog)
+- Amazon Athena (Serverless Schema-on-Read SQL)
+
+
